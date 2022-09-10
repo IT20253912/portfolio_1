@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Water Ripple Effects</title>
+	<link rel="stylesheet" href="./main.css">
+
+	<style>
+		html {
+		  scroll-behavior: smooth;
+		}
+		
+		#section1 {
+		  height: 600px;
+		  background-color: pink;
+		}
+		
+		#section2 {
+		  height: 600px;
+		  background-color: rgb(230, 230, 225);
+		}
+		#section3 {
+		  height: 600px;
+		  background-color: rgb(230, 230, 225);
+		}
+		</style>
+
+
+
+</head>
+<body>
+	<section>
+
+		<div class="hero">
+			<nav>
+				<img src="./img/logo.png" class="logo">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<a href="#" class="btn">Buy Now</a>
+			</nav>
+	
+			<div class="content">
+				<span class="title">Freelance Web Developer</span>
+				<h1>Hello, I’m <span>Fatima</span></h1>
+				<p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
+				<a href="#" class="btn">Download CV</a>
+			</div>
+		</div>
+
+
+
+
+	</section>
+
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="jquery.ripples-min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("section").ripples({
+			  dropRadius: 10,
+			  perturbance: 0.05,
+			});
+		})
+	</script>
+<!--
+<div class="main" id="section2">
+	<br><br>
+<h1><b>What I do</h1>
+	
+ <center>
+	<br><br>
+  <table>
+	<tr>
+		<td class ="container glass">a</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">b</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">c</td>	
+	</tr>
+	<tr>
+		<td ><br></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td ><br></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td ><br></td>	
+	</tr>
+	<tr>
+		<td class ="container glass">d</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">e</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">f</td>	
+	</tr>
+  </table>
+</center>
+
+		<div class ="container glass">
+
+
+		</div>
+
+</div>
+
+
+<div class="main" id="section3">
+	<br><br>
+<h1><b>What I do</h1>
+	
+ <center>
+	<br><br>
+  <table>
+	<tr>
+		<td class ="container glass">
+			a
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">
+			b
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">
+			c
+		</td>	
+	</tr>
+	<tr>
+		<td ><br></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td ><br></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td ><br></td>	
+	</tr>
+	<tr>
+		<td class ="container glass">
+			d
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">
+			e
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td class ="container glass">
+			f
+		</td>	
+	</tr>
+  </table>
+</center>
+
+-->		
+
+</div>
+
+</body>
+</html>
